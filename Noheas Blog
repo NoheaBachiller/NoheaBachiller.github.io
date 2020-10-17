@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+    </head>
+    <style>
+        body {background-color:rgb(137, 210, 214);}
+        h1 {font-family: Cursive;
+            font-style: bold;
+            color: blue;
+            background-color:rgb(198, 197, 214);
+            text-align: center;}
+        h3 {text-align: center;
+            font-style: bold;
+            font-size: 15px;
+            color:blue;
+            background-color: rgb(198, 197, 214);
+            line-height: 40px;}
+        #welcome {text-align: center;
+            font-size: 0.8em;}
+        #surf {color:blue;
+            background-color:rgb(198,187,214);
+            text-align:center;}
+        #skate {color:blue;
+            background-color:rgb(198,187,214);
+            text-align:center;}
+        #boog {color:blue;
+            background-color:rgb(198,187,214);
+            text-align:center;}
+        .post {line-height: 5px;
+            text-decoration:underline;
+            color:rgb(122, 114, 2);}
+        .entry {font-size: 0.8em;
+            font-family: monospace;}
+    </style>
+    <body>
+        
+        <h1>Nohea's Blog</h1>
+<p id='welcome'>Welcome to my blog! You will find post post about my daily activities whether I went surfing, skateboarding, or bodyboarding that day. I will try to post daily arond 8 pm.</p>
+        <h3>Table of Contents</h3>
+        <ul>
+          <a href="#surf"> Surfing </a><br>
+          <a href='#skate'> Skateboarding </a><br>
+          <a href='#boog'>  Bodyboarding </a> <br>
+        </ul>
+        
+        <h2 id='surf'>Surfing</h2>
+        <h4 class='post'> October 17, 2020</h4>
+        <p class='entry'> I surfed Ho'okipa this morning and it was really fun! The waves were 3-4 feet, and conditions were all time. I surfed the point for about 2 hours and caught a ton of good waves. Stoked! </p>
+        <img src='https://www.kasandbox.org/programming-images/avatars/aqualine-sapling.png'>
+        <h2 id='skate'>Skateboarding</h2>
+         <h4 class='post'> October 5, 2020</h4>
+         <p class='entry'> This evening I skated Lahaina Skatepark with a few of my friends. This is my favorite skatepark on the island, because of the design, and friendly crowd. I was stoked to land a few new tricks too! </p>
+         <img src='https://www.kasandbox.org/programming-images/avatars/aqualine-seed.png'>
+        <h2 id='boog'>Bodyboarding</h2>
+         <h4 class='post'> October 10, 2020</h4>
+         <p class='entry'> This morning I went down to big beach to bodyboard and skim. The waves were small but still really fun for bodyboarding. I got a few little barrels and a couple good flips while skimming. </p> 
+         <img src='https://www.kasandbox.org/programming-images/avatars/aqualine-seedling.png'>
+
+    </body>
+</html>
